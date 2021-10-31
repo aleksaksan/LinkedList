@@ -17,12 +17,21 @@ namespace MyLinkedList
             LinkedList lis = new LinkedList(new int[] { 111,222,333,444});
             //li.AddLast(lis);
             li.AddAt(1, lis);
-            li.Set(1, 5);
+            li.Set(19, 666);
            // li.PrintList();
-            li.RemoveFirst();
-            li.RemoveLast();
+            //li.RemoveFirst();
+            //li.RemoveLast();
+            //li.PrintList();
+            //li.RemoveFirstMultiple(3);
+            //li.PrintList();
+            //li.RemoveLastMultiple(3);
+            //li.PrintList();
+            //li.RemoveAt(1);
             li.PrintList();
-
+            li.Sort();
+            li.PrintList();
+            li.SortDesc();
+            li.PrintList();
         }
     }
 }
